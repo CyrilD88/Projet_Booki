@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    max-width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #ffff;
+    font-family: "Raleway", sans-serif;
+   }
+
+
+/*barre de navigation*/
+
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.navbar {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header {
+    margin: 0;
+}
+
+
+.logobooki {
+    width: 61.09px;
+    padding: 0;
+   
+  
+}
+.menu {
+    width: 381px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+nav ul a {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    
+
+}
+
+.link_1 {
+    height: 47px;
+    width: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: transparent 3px solid;
+}
+
+.link_2 {
+    height: 47px;
+    width: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: transparent 3px solid;
+}
+
+.link_1:hover {
+    border-top: #0065FC 3px solid; 
+    background-color: #ffff  
+   
+}
+
+.link_2:hover {
+     border-top: #0065FC 3px solid;  
+     background-color: #ffff    
+  
+}
+
+.menu a:hover {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 19px;
+    color: #0065FC;
+}
+
+
+
+
+
+/*section recherche*/
+
+.premieresection{
+    width: 100%;
+}
+
+.premieresection h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+   
+}
+
+.premieresection p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+   
+}
+
+
+button .fa-magnifying-glass{
+    display: none;
+}
+form {
+    
+    width: 332px;
+    display: flex;
+   
+}
+
+form i {
+    background: #f2f2f2;
+    padding: 10px 13px;
+    border-radius: 15px 0 0 15px;
+
+}
+
+form input {
+    border: 1px solid #f2f2f2;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0 7px 10px;
+    margin-left: -5px;
+    outline: none;
+}
+
+
+input::placeholder{
+    color: black;
+}
+
+form button {
+    border-radius: 0 14px 14px 0;
+    background-color: #0065FC;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 9px 17px 8px 17px;
+    cursor: pointer;
+    margin-left: -5px;
+}
+
+.navfiltre{
+    display: flex;
+    padding-top: 32px;
+}
+
+.navfiltre h2 {
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+.navfiltre li a {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #000;
+  }
+.filtres {
+    display: flex;
+    padding: 0; 
+      
+}
+
+.btn-filtre_1{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 50px;
+}
+
+.filtres .fa-money-bill-wave {
+    font-size: 22px;
+    color: #0065FC; 
+    margin-right: 10px; 
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.btn-filtre_2{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 50px;
+}
+
+.filtres .fa-person-dress {
+    font-size: 22px;
+    color: #0065FC; 
+    margin-right: 10px; 
+    cursor: pointer;
+}
+
+.btn-filtre_3{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 50px;
+}
+
+.filtres .fa-heart{
+    font-size: 22px;
+    color: #0065FC; 
+    margin-right: 10px; 
+    cursor: pointer;
+}
+
+.btn-filtre_4{
+     height: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 50px;
+}
+
+.filtres .fa-dog {
+    font-size: 22px;
+    color: #0065FC; 
+    margin-right: 10px; 
+    
+    cursor: pointer;
+}
+
+.navfiltre li a{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.premieresection li:hover{
+    background-color: #deebff;
+    cursor: pointer;
+}
+
+.recherches{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.recherches .fa-info{
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+}
+
+.logement {
+    width: 100%;
+    padding: 22px 0 21px 0;
+    margin-left: 11px;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/*deuxieme section*/
+
+/* hébergements à Marseille */
+
+.cartesregroupement{
+    width: 70%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+}
+
+.cartesregroupement h2{
+    padding-left: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cartes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px    
+}
+
+.carte img{
+    width: 100%;
+    height: 124px;
+    object-fit: cover;
+    border-top-left-radius: 20px;   
+    border-top-right-radius: 20px; 
+}
+.carte{
+    width: 30%;  
+    border-radius: 20px;
+    padding: 4px 0 0 4px;
+    background-color: #ffff;
+}
+.star-blue{
+    color: #0065FC;
+}
+
+.star-grey{
+    color: #d9d9d9;
+}
+
+.carte h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 4px 0px 0px 16px;
+}
+
+.carte p{
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 9px 0 0 16px;
+}
+
+.afficher{
+   padding-left: 30px;  
+}
+
+
+.afficher a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px; 
+    color: #000;  
+    
+}
+
+.carte:hover{
+    box-shadow: 0 0 8px #0065FC;
+}
+
+
+
+/* Les plus populaires */
+
+.deuxiemesection{
+    width: auto;
+    display: flex;
+    gap: 20px;
+  
+}
+
+
+
+.cartespopulaires{
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cartehotel{
+    width: 100%;
+    height: 150px;   
+    border-radius: 20px;
+    background-color: #ffff;
+    display: flex;
+    margin-bottom: 30px;    
+    overflow: hidden;
+    border: 4px solid #ffff;    
+}
+
+.etoiletop{
+    position: absolute;
+    bottom: 0px;
+}
+.cartespopulaires h2{
+  
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+.cartehotel img{
+    width: 137px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description{
+    padding-left: 10px;
+    position: relative;
+    
+}
+.description p{
+    font-size: 14px;
+}
+.description h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
+
+
+
+.fa-chart-line{
+    color: #0065FC;
+}
+
+.cartehotel:hover{
+    box-shadow: 0 0 8px #0065FC;
+}
+
+
+.deuxiemesection a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*Activités à Marseille*/
+
+
+
+
+
+.card_activites{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+.card_activites img{
+    width: 100%;
+    height: 388px;
+    object-fit: cover;
+    
+   
+ }
+
+ .card{
+    width: 21%;
+    border-radius: 20px;
+    background: #ffff;
+    border: 1px solid #F0F2F6; 
+    box-shadow: 6px 6px 6px #F0F2F6;
+    overflow: hidden;
+
+ }
+
+ .card_activites h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 19px;
+    color: black;
+}
+ 
+.activites h2{
+    margin-left: 50px;
+}
+.card a{
+    text-decoration: none;
+}
+
+.card:hover{
+    box-shadow: 0 0 8px #0065FC;
+}
+
+
+
+/* Création du footer*/
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+.footer{
+    width: 100%;
+    height: 225px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;    
+}
+
+.footer ul{
+    width: 30%;
+}
+.footer li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+ 
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer a:hover{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+}
+
+
+/*media queries tablette*/
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    body{
+        width: auto;
+        height: 2076px;
+        margin: 0;
+    }
+    .navigation{
+        padding-left: 40px;
+    }
+  
+    .deuxiemesection .cartesregroupement{
+        flex:50%;
+    }
+      
+    .deuxiemesection .cartespopulaires{
+        flex: 50%;
+    }
+     .navigation{
+        margin-top: 48px;
+    }
+
+    .navfiltre ul li {
+        margin: 10px;
+    }
+    .deuxiemesection{
+         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    .cartesregroupement{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .cartes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    /*les plus populaires*/
+
+    
+ 
+    .populaires{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+       justify-content: space-around;
+       padding-top: 26px;
+               
+    }
+    .cartehotel{
+        width: 252px;
+        height: 144px;
+      
+    }
+    .description{
+        width: 146px;
+        height: 144px;
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .description h4{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .etoiletop{
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .cartespopulaires h2{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    /*activités à Marseille*/
+
+    #troisiemesection{
+        margin-top: 70px;
+    }
+    .activites{
+        width: auto;
+        height: 278px;
+      
+    }
+    .card{
+        width: 182px;
+        height: 267px;
+    }
+    .card_activites img{
+        width: 182px;
+        height: 211px;
+    }
+
+    .card h4{
+        width: 182px;
+        height: 56px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+
+    /*footer*/
+
+    .footer{
+        width: 100%;
+        height: 225px;
+        margin-top: 70px;
+    }
+}
+
+/*media queries mobiles*/
+
+@media screen and (max-width:767px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        flex-direction: column;
+        
+    }
+
+    .logo{
+        padding: 0;
+    }
+    
+    .menu{
+        width: 100%;
+        padding: 0;
+    }
+    .link_1{
+        width: 100%;
+        height: 18px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+       
+        
+    }
+
+    .link_2{
+        width: 100%;
+        height: 18px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+      
+      
+    }
+    
+    .link_1:hover{
+        border-bottom: 3px solid #0065FC;
+        border-top: transparent;
+    }
+
+    .link_2:hover{
+        border-bottom: 3px solid #0065FC;
+        border-top: transparent;
+    }
+
+
+    
+    .premieresection{
+        width: 100%;
+     }
+
+    .hebergement{
+        display: flex;
+        flex-direction: column;
+    }
+
+/*section rechercher*/
+.hebergement{
+    padding-top: 60px;
+    margin: 0 40px;
+}
+
+.navfiltre {
+    flex-direction: column;
+}
+.navfiltre ul{
+    flex-wrap: wrap;
+}
+.navfiltre ul li {
+    width: 30%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.navfiltre h2 {
+    margin: 0 40px;
+}
+
+form{
+    margin: auto;
+}
+.fa-location-dot{
+    padding: 16px 18px 15px 18px;
+}
+button span{
+    display: none;
+}
+
+button .fa-magnifying-glass{
+    display: flex;
+   background-color: #0065FC;
+}
+
+.recherches{
+    margin: 0 40px;
+}
+
+    /*deuxieme section*/
+.deuxiemesection{
+    flex-direction: column-reverse;
+   }
+
+.cartespopulaires{
+    width: 90%;
+   }
+
+.populaires{
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50px;
+   }
+
+.cartesregroupement{
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+}
+
+.carte{
+    width: 94%;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px rgb(233 233 233);
+    border: 5px solid #ffffff;
+}
+
+
+/*troisieme section*/
+
+.card_activites{
+    flex-direction: column;
+}
+
+.card_activites .card{
+    width: 90%;
+    margin: 20px;
+}
+ /*footer*/
+ .footer{
+    flex-direction: column;
+    height: 100%;
+ }
+}

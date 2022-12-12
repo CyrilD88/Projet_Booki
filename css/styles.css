@@ -181,7 +181,9 @@ form button {
 
 .navfiltre h2 {
     font-size: 18px;
-    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+   
 }
 .navfiltre li a {
     text-decoration: none;
@@ -602,7 +604,7 @@ ul {
     body{
         width: auto;
         height: 2076px;
-        margin: 0;
+        margin: 15px;
     }
     .navigation{
         padding-left: 40px;
@@ -619,6 +621,10 @@ ul {
         margin-top: 48px;
     }
 
+    .navfiltre h2{
+        display: flex;
+        align-items: center;
+    }
     .navfiltre ul li {
         margin: 10px;
     }
@@ -651,13 +657,17 @@ ul {
     
  
     .populaires{
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: row;
+       width: 100%;
+       display: flex;
        justify-content: space-around;
        padding-top: 26px;
                
+    }
+
+    .titre{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
     }
     .cartehotel{
         width: 252px;
@@ -683,11 +693,8 @@ ul {
         bottom: 0px;
     }
 
-    .cartespopulaires h2{
-        display: flex;
-        justify-content: space-between;
-        padding-left: 50px;
-        padding-right: 50px;
+    .cartespopulaires h2{     
+        padding-left: 30px;
     }
 
 
@@ -802,13 +809,17 @@ ul {
 }
 .navfiltre ul{
     flex-wrap: wrap;
+    justify-content: center;
 }
 .navfiltre ul li {
-    width: 30%;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    width: 40%;
+    margin: 10px 7px
+  
 }
 
+.filtres li a {
+    font-size: 11px;
+}
 .navfiltre h2 {
     margin: 0 40px;
 }
@@ -838,13 +849,14 @@ button .fa-magnifying-glass{
    }
 
 .cartespopulaires{
-    width: 90%;
+    width: 100%;
+    border-radius: 0;
    }
 
 .populaires{
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 50px;
+    
    }
 
 .cartesregroupement{
@@ -862,6 +874,9 @@ button .fa-magnifying-glass{
     border: 5px solid #ffffff;
 }
 
+.afficher{
+    display: none;
+}
 
 /*troisieme section*/
 

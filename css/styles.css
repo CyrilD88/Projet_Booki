@@ -812,9 +812,9 @@ button .fa-magnifying-glass{
 }
 
     /*deuxieme section*/
-.deuxiemesection{
-    flex-direction: column-reverse;
-   }
+    .deuxiemesection{
+        flex-direction: column-reverse;
+       }
 
 .cartespopulaires{
     width: 100%;

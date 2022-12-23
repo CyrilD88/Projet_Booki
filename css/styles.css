@@ -807,9 +807,6 @@ button .fa-magnifying-glass{
    background-color: #0065FC;
 }
 
-.recherches{
-    margin: 0 40px;
-}
 
     /*deuxieme section*/
     .deuxiemesection{
@@ -819,7 +816,6 @@ button .fa-magnifying-glass{
 .cartespopulaires{
     width: 100%;
     border-radius: 0;
-    margin: 0px 20px;;
    }
 
 .populaires{
@@ -855,7 +851,7 @@ button .fa-magnifying-glass{
 
 .card_activites .card{
     width: 90%;
-    margin: 20px;
+    margin: 20px auto;
 }
 .activites h2{
     margin: 0px 20px;
@@ -866,5 +862,8 @@ button .fa-magnifying-glass{
     height: 100%;
     width: 100%;
     margin: 0px 20px;
+ }
+ .footer ul{
+    width: 100%;
  }
 }
